@@ -8,7 +8,10 @@ export default function Index() {
         
       }}
     >
-      <Text>Holi</Text>
+      <Text style = {{
+        fontFamily:'firasans-bold',
+        fontSize: 40
+      }}>Holi</Text>
     </View>
   );
 }
