@@ -1,4 +1,5 @@
-import { Text, View } from "react-native";
+import { Link } from "expo-router";
+import { Pressable, Text, View } from "react-native";
 
 export default function Index() {
   return (
@@ -8,10 +9,9 @@ export default function Index() {
         
       }}
     >
-      <Text style = {{
-        fontFamily:'firasans-bold',
-        fontSize: 40
-      }}>Holi</Text>
+      <Link href={'/login'}>
+        <Text> Go To Login Screen</Text>
+      </Link>
     </View>
   );
 }
