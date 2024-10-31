@@ -24,6 +24,7 @@ export default function Index() {
         
       }}
     >
+      <Text>{user?.fullName}</Text>
       {
         user ?
         <Redirect href={'/(tabs)/home'} />
