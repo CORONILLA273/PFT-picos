@@ -6,7 +6,7 @@ import { getFirestore } from "firebase/firestore"
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: proccess.env.EXPO_PUBLIC_FIREBASE_API_KEY,
+  apiKey: process.env.EXPO_PUBLIC_FIREBASE_API_KEY,
   authDomain: "smarttrainer-e3e9a.firebaseapp.com",
   projectId: "smarttrainer-e3e9a",
   storageBucket: "smarttrainer-e3e9a.appspot.com",

@@ -1,6 +1,7 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 import Header from '../../components/Home/header'
+import Slider from '../../components/Home/slider'
 
 export default function home() {
     return (
@@ -9,9 +10,9 @@ export default function home() {
             marginTop:20
         }}>
             {/*Header*/}
-            <Header/>
+            <Header />
             {/*Slider*/}
-
+            <Slider />
             {/*Category*/}
 
             {/*List of exercises*/}
